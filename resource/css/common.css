@@ -1,0 +1,388 @@
+@charset "UTF-8";
+/* line 5, ../sass/common.scss */
+body {
+  background: #fff;
+}
+
+/* line 8, ../sass/common.scss */
+.width1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*header*/
+/* line 13, ../sass/common.scss */
+.header {
+  padding: 25px 0 20px 0;
+  height: 40px;
+}
+/* line 16, ../sass/common.scss */
+.header .logo {
+  width: 220px;
+  height: 40px;
+  padding-right: 60px;
+  vertical-align: center;
+  float: left;
+}
+/* line 23, ../sass/common.scss */
+.header .tab_ul {
+  float: left;
+}
+/* line 25, ../sass/common.scss */
+.header .tab_ul > li {
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  float: left;
+  padding-bottom: 35px;
+}
+/* line 32, ../sass/common.scss */
+.header .tab_ul a.tab_ul_link {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+  color: #666;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  /*position:relative;*/
+}
+/* line 43, ../sass/common.scss */
+.header .tab_ul a.tab_ul_link.active, .header .tab_ul a.tab_ul_link:hover {
+  background: #1683d0;
+  color: #fff;
+}
+/* line 47, ../sass/common.scss */
+.header .tab_ul a.tab_ul_link.double {
+  height: 45px;
+  width: 167px;
+  padding: 0;
+  line-height: 20px;
+}
+
+/* line 60, ../sass/common.scss */
+.trangile_css {
+  font-size: 0;
+  line-height: 0;
+  border-width: 5px;
+  border-color: #1f2870;
+  border-top-width: 0;
+  border-style: dashed;
+  border-bottom-style: solid;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -2px;
+}
+
+/* line 75, ../sass/common.scss */
+.sub_tab_ul {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 150px;
+  background: #1f2870;
+  padding: 5px;
+  left: 50%;
+  margin-left: -75px;
+}
+/* line 85, ../sass/common.scss */
+.sub_tab_ul.sub_tab_ul_3 {
+  width: 210px;
+  margin-left: -105px;
+}
+/* line 89, ../sass/common.scss */
+.sub_tab_ul li.J_sub_tab_ul_li {
+  background-color: #1f2870;
+  color: #fff;
+  float: none;
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 99, ../sass/common.scss */
+.sub_tab_ul li.J_sub_tab_ul_li.active {
+  background-color: #aa825b;
+  color: #1f2870;
+}
+/* line 102, ../sass/common.scss */
+.sub_tab_ul li.J_sub_tab_ul_li.active .sub_tab_ul_link {
+  color: #1f2870;
+}
+/* line 107, ../sass/common.scss */
+.sub_tab_ul .sub_tab_ul_link {
+  text-align: center;
+  /*background-color: #1f2870;*/
+  color: #fff;
+  /*float: none;
+  display: inline-block;
+  width:100%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  @include border-radius(3px);*/
+  /*&:hover{
+  	background-color:#aa825b;
+  	color:#1f2870;
+  };*/
+}
+
+/* line 128, ../sass/common.scss */
+mark {
+  font-size: 16px !important;
+}
+
+/* line 131, ../sass/common.scss */
+.news_cnt .news_rt .news_rt_dl dd mark, .business_content_one .business_content_z .business_list_cnt dd h3 mark {
+  font-size: 19px !important;
+}
+
+/* line 134, ../sass/common.scss */
+.aboutus_cnt .aboutus_left_cnt .title mark {
+  font-size: 24px !important;
+}
+
+/* line 137, ../sass/common.scss */
+.about_content_one .about_content_one_cn dd h3 mark, .business_content_one .business_content_z .business_title mark {
+  font-size: 20px !important;
+}
+
+/* line 140, ../sass/common.scss */
+.news_content_one .newscentre_cnt .newscentre_left_cnt .title mark {
+  font-size: 30px !important;
+}
+
+/* line 143, ../sass/common.scss */
+.newscentre_rt_nav li p mark {
+  font-size: 18px !important;
+}
+
+/* line 146, ../sass/common.scss */
+.common_title {
+  padding-top: 80px;
+  line-height: 50px;
+  font-size: 36px;
+  border-bottom: 1px solid #acacac;
+  position: relative;
+}
+/* line 152, ../sass/common.scss */
+.common_title span {
+  display: inline-block;
+  background: #fff;
+  padding: 0 24px;
+  position: absolute;
+  top: 55px;
+  font-size: 36px;
+  color: #1683d0;
+  left: 50%;
+  margin-left: -102px;
+  width: 150px;
+  text-align: center;
+  background-color: #eee;
+}
+/* line 165, ../sass/common.scss */
+.common_title span mark {
+  font-size: 36px !important;
+}
+
+/* line 172, ../sass/common.scss */
+.tranigle {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* line 176, ../sass/common.scss */
+.footer {
+  /*background-color: #1a1a1a;*/
+  background-color: #0B1936;
+  padding: 48px 0 42px 0;
+}
+/* line 180, ../sass/common.scss */
+.footer .footer_cnt {
+  overflow: hidden;
+}
+/* line 183, ../sass/common.scss */
+.footer .footer_left {
+  padding-right: 15px;
+  float: left;
+  padding-top: 20px;
+}
+/* line 187, ../sass/common.scss */
+.footer .footer_left img {
+  width: 220px;
+  vertical-align: middle;
+}
+/* line 192, ../sass/common.scss */
+.footer .footer_right {
+  float: left;
+  padding-left: 14px;
+  border-left: 1px solid #282828;
+}
+/* line 196, ../sass/common.scss */
+.footer .footer_right ul {
+  float: left;
+  padding: 6px;
+}
+/* line 199, ../sass/common.scss */
+.footer .footer_right ul li {
+  line-height: 25px;
+  font-size: 12px;
+  color: #666;
+  height: 25px;
+}
+/* line 204, ../sass/common.scss */
+.footer .footer_right ul li img {
+  padding-right: 10px;
+}
+/* line 207, ../sass/common.scss */
+.footer .footer_right ul li span, .footer .footer_right ul li img {
+  vertical-align: middle;
+}
+/* line 211, ../sass/common.scss */
+.footer .footer_right ul li .footer_span_phone {
+  padding-right: 27px;
+}
+/* line 214, ../sass/common.scss */
+.footer .footer_right ul li .footer_span_email {
+  padding-right: 27px;
+}
+/* line 219, ../sass/common.scss */
+.footer .footer_right .language_tab {
+  float: left;
+  padding: 64px 0px 0 70px;
+  font-size: 12px;
+  color: #666;
+}
+/* line 224, ../sass/common.scss */
+.footer .footer_right .language_tab a {
+  color: #666;
+  padding: 0 5px;
+}
+/* line 227, ../sass/common.scss */
+.footer .footer_right .language_tab a.active, .footer .footer_right .language_tab a:hover {
+  color: #fff;
+}
+/* line 231, ../sass/common.scss */
+.footer .footer_right .language_tab span {
+  padding: 0 5px;
+}
+
+/* line 238, ../sass/common.scss */
+mark {
+  background-color: none;
+}
+
+/* line 241, ../sass/common.scss */
+.search {
+  float: right;
+  position: relative;
+  width: 179px;
+  padding-left: 14px;
+  margin-top: -7px;
+}
+/* line 247, ../sass/common.scss */
+.search .search_btn {
+  width: 42px;
+  height: 42px;
+  margin-top: -5px;
+  border: 0;
+}
+/* line 253, ../sass/common.scss */
+.search form {
+  float: left;
+  width: 150px;
+  margin-right: -12px;
+  margin-top: 5px;
+  display: block;
+}
+/* line 261, ../sass/common.scss */
+.search .search_text {
+  float: left;
+  width: 135px;
+  height: 32px;
+  padding-left: 15px;
+  border: 1px solid #eee;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  margin-top: 3px;
+  color: #666;
+  margin-left: 16px;
+}
+/* line 271, ../sass/common.scss */
+.search .search_text::-webkit-input-placeholder {
+  color: #999;
+  font-size: 12px;
+  text-align: left;
+}
+/* line 278, ../sass/common.scss */
+.search .suspension_search {
+  width: 40px;
+  height: 40px;
+  padding: 5px 0;
+  display: inline-block;
+}
+/* line 284, ../sass/common.scss */
+.search .suspension_search {
+  position: absolute;
+  right: 0;
+  background: url("../images/right_search.png") no-repeat;
+  background-size: 40px;
+  top: 5px;
+}
+
+/*悬浮*/
+/*.suspension{
+	position: fixed;
+	right:100px;
+	bottom:260px;
+	width:200px;
+	height:115px;
+	.search{
+		form{
+			float: left;
+		    width: 170px;
+		    margin-right: -12px;
+		    margin-top: 5px;
+		    display: block;
+		   
+		}
+		input{
+			float: left;
+		    width: 170px;
+		    height: 40px;
+		    border: 0;
+		    border: 1px solid #eee;
+		    @include border-radius(100px);
+		}
+	}
+	.suspension_language_eng,.suspension_search{
+		width: 51px;
+		height:51px;
+		padding:5px 0;
+		display: inline-block;
+	}
+	.suspension_language_eng{
+		padding-left:150px;
+		background: url('../images/search_eng.png') no-repeat;
+	}
+	.suspension_search{
+		position:absolute;
+		right:0;
+		background:url('../images/right_search.png') no-repeat;
+	}
+}*/

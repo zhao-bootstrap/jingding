@@ -1,0 +1,382 @@
+@charset "UTF-8";
+/*关于我们*/
+/* line 2, ../sass/sublist_fan.scss */
+.sub_banner {
+  width: 100%;
+  height: 329px;
+  background: url("../images/banner_about.png") no-repeat;
+  background-size: cover;
+}
+
+/*企事业单位*/
+/* line 9, ../sass/sublist_fan.scss */
+.sub_banner_corporate {
+  width: 100%;
+  height: 328px;
+  background: url("../images/banner_corporate.png") no-repeat;
+  background-size: cover;
+}
+
+/*新闻中心*/
+/*newscentre_img.png*/
+/* line 17, ../sass/sublist_fan.scss */
+.sub_banner_newscenter {
+  width: 100%;
+  height: 328px;
+  background: url("../images/banner_newscenter.png") no-repeat;
+  background-size: cover;
+}
+
+/*公司业务*/
+/* line 24, ../sass/sublist_fan.scss */
+.sub_banner_business {
+  width: 100%;
+  height: 328px;
+  background: url("../images/banner_business.png") no-repeat;
+  background-size: cover;
+}
+
+/*联系我们*/
+/* line 31, ../sass/sublist_fan.scss */
+.sub_banner_contact {
+  width: 100%;
+  height: 328px;
+  background: url("../images/banner_contact.png") no-repeat;
+  background-size: cover;
+}
+
+/*关于我们*/
+/* line 39, ../sass/sublist_fan.scss */
+.common_word, .about_content_one .about_content_one_cn dd p, .about_content_two dl dd {
+  line-height: 28px;
+  font-size: 16px;
+  color: #808080;
+}
+
+/* line 44, ../sass/sublist_fan.scss */
+.about_content_one {
+  background: #eee;
+}
+/* line 46, ../sass/sublist_fan.scss */
+.about_content_one .about_content_one_cn {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px 0 80px 0;
+}
+/* line 51, ../sass/sublist_fan.scss */
+.about_content_one .about_content_one_cn .aboutus_img {
+  float: left;
+}
+/* line 54, ../sass/sublist_fan.scss */
+.about_content_one .about_content_one_cn dd {
+  width: 710px;
+  float: left;
+  padding-left: 60px;
+}
+/* line 59, ../sass/sublist_fan.scss */
+.about_content_one .about_content_one_cn dd h3 {
+  font-size: 20px;
+  line-height: 36px;
+  padding-bottom: 18px;
+  color: #4d4d4d;
+  font-weight: normal;
+}
+
+/*内容2*/
+/* line 74, ../sass/sublist_fan.scss */
+.about_content_two .common_title span {
+  width: 300px;
+  margin-left: -174px;
+  background-color: #fff;
+}
+/* line 79, ../sass/sublist_fan.scss */
+.about_content_two dl {
+  margin: 60px auto 130px auto;
+  overflow: hidden;
+  background-color: #eee;
+  height: 516px;
+}
+/* line 84, ../sass/sublist_fan.scss */
+.about_content_two dl dt {
+  float: left;
+  width: 344px;
+}
+/* line 88, ../sass/sublist_fan.scss */
+.about_content_two dl dd {
+  float: left;
+  padding: 30px 30px;
+  width: 790px;
+}
+/* line 93, ../sass/sublist_fan.scss */
+.about_content_two dl dd p {
+  padding-bottom: 10px;
+}
+/* line 96, ../sass/sublist_fan.scss */
+.about_content_two dl dd .about_img_word {
+  display: block;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color: #666;
+}
+/* line 103, ../sass/sublist_fan.scss */
+.about_content_two dl dd img {
+  width: 580px;
+  display: block;
+}
+
+/* line 112, ../sass/sublist_fan.scss */
+.border-bottom_c1 {
+  border-bottom: 1px solid #c1c1c1;
+}
+
+/* line 115, ../sass/sublist_fan.scss */
+.padding_top30 {
+  padding-top: 30px;
+}
+
+/*service 内容*/
+/* line 119, ../sass/sublist_fan.scss */
+.business_content_one {
+  background: #eee;
+}
+/* line 121, ../sass/sublist_fan.scss */
+.business_content_one .common_title span {
+  width: 150px;
+  margin-left: -99px;
+}
+/* line 126, ../sass/sublist_fan.scss */
+.business_content_one .business_content_z .business_title {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 50px 0 30px 0;
+  color: #1683d0;
+}
+/* line 133, ../sass/sublist_fan.scss */
+.business_content_one .business_content_z .business_list_cnt {
+  overflow: hidden;
+  padding-bottom: 56px;
+}
+/* line 136, ../sass/sublist_fan.scss */
+.business_content_one .business_content_z .business_list_cnt.business_list_cnt_last {
+  padding-bottom: 350px;
+}
+/* line 139, ../sass/sublist_fan.scss */
+.business_content_one .business_content_z .business_list_cnt dt {
+  width: 356px;
+  height: 217px;
+  float: left;
+}
+/* line 144, ../sass/sublist_fan.scss */
+.business_content_one .business_content_z .business_list_cnt dd {
+  float: right;
+  padding-left: 40px;
+  width: 804px;
+  line-height: 30px;
+}
+/* line 149, ../sass/sublist_fan.scss */
+.business_content_one .business_content_z .business_list_cnt dd h3 {
+  color: #4d4d4d;
+  font-weight: normal;
+  font-size: 19px;
+  padding-bottom: 24px;
+}
+/* line 155, ../sass/sublist_fan.scss */
+.business_content_one .business_content_z .business_list_cnt dd p {
+  color: #808080;
+  padding-bottom: 24px;
+}
+
+/* corporate corporate_cnt*/
+/* line 164, ../sass/sublist_fan.scss */
+.content_one_corporate {
+  background: #eee;
+}
+/* line 166, ../sass/sublist_fan.scss */
+.content_one_corporate .common_title span {
+  width: 280px;
+  margin-left: -164px;
+}
+
+/* line 171, ../sass/sublist_fan.scss */
+.corporate_cnt {
+  background: #eee;
+  padding-top: 20px;
+}
+/* line 175, ../sass/sublist_fan.scss */
+.corporate_cnt .corporate_cnt_img {
+  padding: 65px 0 100px 0;
+}
+/* line 178, ../sass/sublist_fan.scss */
+.corporate_cnt h3 {
+  padding-top: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+/* line 184, ../sass/sublist_fan.scss */
+.corporate_cnt p {
+  padding-top: 25px;
+  line-height: 30px;
+  color: #808080;
+}
+
+/* line 192, ../sass/sublist_fan.scss */
+.contactus_cnt_z .common_title span {
+  width: 220px;
+  margin-left: -134px;
+}
+
+/* line 197, ../sass/sublist_fan.scss */
+.contactus_cnt {
+  padding-top: 47px;
+  padding-bottom: 90px;
+}
+/* line 201, ../sass/sublist_fan.scss */
+.contactus_cnt .contactus_title {
+  line-height: 36px;
+  color: #4d4d4d;
+  font-size: 22px;
+  text-align: center;
+}
+/* line 209, ../sass/sublist_fan.scss */
+.contactus_cnt dl.contact_list dt {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #1683d0;
+  line-height: 35px;
+}
+/* line 217, ../sass/sublist_fan.scss */
+.contactus_cnt dl.contact_list dd ul {
+  overflow: hidden;
+  margin-left: -15px;
+}
+/* line 221, ../sass/sublist_fan.scss */
+.contactus_cnt dl.contact_list dd li {
+  text-align: center;
+  float: left;
+  background: #fff;
+  width: 255px;
+  padding: 33px 60px;
+  margin: 0 15px;
+}
+/* line 231, ../sass/sublist_fan.scss */
+.contactus_cnt dl.contact_list dd li .contact_name {
+  font-size: 18px;
+  display: inline-block;
+  width: 260px;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid #d0d0d0;
+  color: #808080;
+}
+/* line 239, ../sass/sublist_fan.scss */
+.contactus_cnt dl.contact_list dd li .contact_list_con {
+  display: inline-block;
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 26px;
+  color: #808080;
+}
+/* line 252, ../sass/sublist_fan.scss */
+.contactus_cnt .contact_list_gray li {
+  background: #ccc !important;
+}
+/* line 255, ../sass/sublist_fan.scss */
+.contactus_cnt .contact_list_gray .contact_name {
+  border-bottom: 1px solid #8a8a8a !important;
+}
+
+/*新闻*/
+/* line 263, ../sass/sublist_fan.scss */
+.news_content_one {
+  padding-bottom: 190px;
+  background: #fff;
+}
+/* line 266, ../sass/sublist_fan.scss */
+.news_content_one .common_title span {
+  width: 240px;
+  background: #fff;
+  margin-left: -144px;
+}
+/* line 271, ../sass/sublist_fan.scss */
+.news_content_one .newscentre_cnt {
+  padding-top: 100px;
+  overflow: hidden;
+}
+/* line 275, ../sass/sublist_fan.scss */
+.news_content_one .newscentre_cnt .newscentre_left_cnt {
+  width: 838px;
+  float: left;
+  height: 1000px;
+  padding-bottom: 20px;
+  overflow: auto;
+  border-right: 1px solid #d6d6d6;
+}
+/* line 282, ../sass/sublist_fan.scss */
+.news_content_one .newscentre_cnt .newscentre_left_cnt li {
+  display: none;
+}
+/* line 284, ../sass/sublist_fan.scss */
+.news_content_one .newscentre_cnt .newscentre_left_cnt li.active {
+  display: block;
+}
+/* line 288, ../sass/sublist_fan.scss */
+.news_content_one .newscentre_cnt .newscentre_left_cnt .title {
+  line-height: 30px;
+  font-size: 30px;
+  color: #4d4d4d;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+/* line 295, ../sass/sublist_fan.scss */
+.news_content_one .newscentre_cnt .newscentre_left_cnt .subtitle {
+  color: #4d4d4d;
+  font-size: 19px;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+/* line 301, ../sass/sublist_fan.scss */
+.news_content_one .newscentre_cnt .newscentre_left_cnt img {
+  margin-top: 18px;
+}
+/* line 304, ../sass/sublist_fan.scss */
+.news_content_one .newscentre_cnt .newscentre_left_cnt p {
+  line-height: 30px;
+  padding-top: 30px;
+  font-size: 16px;
+  color: #808080;
+  padding-right: 20px;
+}
+
+/* line 316, ../sass/sublist_fan.scss */
+.newscentre_rt_nav {
+  padding-left: 48px;
+  width: 310px;
+  float: left;
+}
+/* line 320, ../sass/sublist_fan.scss */
+.newscentre_rt_nav li {
+  width: 290px;
+  padding: 20px 10px;
+  border-bottom: 1px solid #6d6d6d;
+  cursor: pointer;
+}
+/* line 325, ../sass/sublist_fan.scss */
+.newscentre_rt_nav li.active {
+  background: #f5f5f5;
+}
+/* line 328, ../sass/sublist_fan.scss */
+.newscentre_rt_nav li p {
+  color: #4d4d4d;
+  line-height: 28px;
+  font-size: 18px;
+}
+/* line 333, ../sass/sublist_fan.scss */
+.newscentre_rt_nav li .news_data {
+  text-align: right;
+  color: #808080;
+  font-size: 18px;
+  line-height: 35px;
+  font-size: 16px;
+}
